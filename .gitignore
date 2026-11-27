@@ -1,0 +1,22 @@
+# Build directories & artifacts
+build/
+build_desktop/
+build_mingw/
+build_test/
+build_wasm/
+
+# IDE & agent workspace metadata
+.qtcreator/
+.agents/
+CMakeLists.txt.user*
+*.user
+
+# Draft / unshipped / scratch / CV files
+*.docx
+cv_extracted.txt
+/Maxime-Alessandri-BW.jpeg
+/Maxime-Alessandri.jpeg
+assets/images/Maxime-Alessandri.jpeg
+views/ClosedLoopVisionView.qml
+components/demos/ActiveLearningDoeDemo.qml
+components/demos/LabVisionDemo.qml
